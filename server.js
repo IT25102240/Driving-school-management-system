@@ -5,7 +5,7 @@ const path = require('path');
 const db = require('./db');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const JWT_SECRET = 'drivesafe_super_secret_key'; // In a real app, use environment variables
 
 app.use(cors());
